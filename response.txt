@@ -1,0 +1,34 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>\n<GoodreadsResponse>\n  
+<Request>\n    <authentication>true</authentication>\n      <key><![CDATA[9QfFG2IhANpg4EixwogLA]]></key>\n    <method><![CDATA[search_index]]></method>\n  </Request>\n  
+<search>\n 
+ <query><![CDATA[0679720219]]></query>\n   
+ <results-start>1</results-start>\n    <results-end>1</results-end>\n    <total-results>1</total-results>\n    <source>Goodreads</source>\n    <query-time-seconds>0.01</query-time-seconds>\n    <results>\n        <work>\n  <id type="integer">2058116</id>\n  <books_count type="integer">562</books_count>\n  
+ <ratings_count type="integer">149960</ratings_count>\n  
+ <text_reviews_count type="integer">5956</text_reviews_count>\n  
+ <original_publication_year type="integer">1947</original_publication_year>\n  
+ <original_publication_month type="integer">6</original_publication_month>\n  
+ <original_publication_day type="integer" nil="true"/>\n  
+ <average_rating>3.99</average_rating>\n  
+ <best_book type="Book">\n   
+ <id type="integer">43497263</id>\n   
+ <title>The Plague</title>\n    
+ <author>\n      <id type="integer">957894</id>\n      
+=======
+<?xml version="1.0" encoding="UTF-8"?>\n<GoodreadsResponse>\n  
+<Request>\n    <authentication>true</authentication>\n      <key><![CDATA[9QfFG2IhANpg4EixwogLA]]></key>\n    <method><![CDATA[search_index]]></method>\n  </Request>\n  
+<search>\n 
+ <query><![CDATA[0679720219]]></query>\n   
+ <results-start>1</results-start>\n    <results-end>1</results-end>\n    <total-results>1</total-results>\n    <source>Goodreads</source>\n    <query-time-seconds>0.01</query-time-seconds>\n    <results>\n        <work>\n  <id type="integer">2058116</id>\n  <books_count type="integer">562</books_count>\n  
+ <ratings_count type="integer">149960</ratings_count>\n  
+ <text_reviews_count type="integer">5956</text_reviews_count>\n  
+ <original_publication_year type="integer">1947</original_publication_year>\n  
+ <original_publication_month type="integer">6</original_publication_month>\n  
+ <original_publication_day type="integer" nil="true"/>\n  
+ <average_rating>3.99</average_rating>\n  
+ <best_book type="Book">\n   
+ <id type="integer">43497263</id>\n   
+ <title>The Plague</title>\n    
+ <author>\n      <id type="integer">957894</id>\n      
+>>>>>>> e91c249518180045abfd580520895a5a4e9f2171
+ <name>Albert Camus</name>\n    </author>\n    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546976684l/43497263._SX98_.jpg</image_url>\n    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546976684l/43497263._SY75_.jpg</small_image_url>\n  </best_book>\n</work>\n\n    </results>\n</search>\n\n</GoodreadsResponse>'

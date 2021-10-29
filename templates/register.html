@@ -1,0 +1,82 @@
+<<<<<<< HEAD
+{% extends "base.html" %} {% block main %}
+
+
+
+<p>Register</p>
+
+<form type='text' action="{{ url_for('new_user') }}" method='post'>
+    <div class='container-fluid'>
+        <div class='row'>
+            <form>
+
+                <div class='form-group'>
+                    <label for='uname'>User name:</label>
+                    <input class='form-control' name='uname' placeholder='Username' id='uname'>
+
+
+                    <label for='pwd'>Password:</label>
+                    <input name='pwd' class='form-control' type='password' value='' placeholder='Password' id='pwd'>
+
+                    <button type="submit" class="btn btn-primary btn-md">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    </div>
+    </div>
+
+=======
+{% extends "base.html" %} {% block main %}
+
+
+
+<p>Register</p>
+
+<form type='text' action="{{ url_for('new_user') }}" method='post'>
+    <div class='container-fluid'>
+        <div class='row'>
+            <form>
+
+                <div class='form-group'>
+                    <label for='uname'>User name:</label>
+                    <input class='form-control' name='uname' placeholder='Username' id='uname'>
+
+
+                    <label for='pwd'>Password:</label>
+                    <input name='pwd' class='form-control' type='password' value='' placeholder='Password' id='pwd'>
+
+                    <button type="submit" class="btn btn-primary btn-md">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    </div>
+    </div>
+
+>>>>>>> e91c249518180045abfd580520895a5a4e9f2171
+    {{ message }} {% endblock %}

@@ -1,0 +1,34 @@
+<<<<<<< HEAD
+{% extends "layout.html" %}
+<title> {% block title %} {% endblock %}</title>
+
+{%block main %}
+
+
+<main>
+    <form action="{{ url_for('file_handler') }}" method='post'>
+        <label for='in_csv'>Upload</label>
+        <input type='file' name='in_csv' accept='csv'>
+    </form>
+</main>
+
+
+
+=======
+{% extends "layout.html" %}
+<title> {% block title %} {% endblock %}</title>
+
+{%block main %}
+
+
+<main>
+    <form action="{{ url_for('file_handler') }}" method='post'>
+        <label for='in_csv'>Upload</label>
+        <input type='file' name='in_csv' accept='csv'>
+    </form>
+</main>
+
+
+
+>>>>>>> e91c249518180045abfd580520895a5a4e9f2171
+{% endblock %}

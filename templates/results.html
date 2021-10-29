@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+{% extends 'layout.html' %} {% block content %}
+<h1>{{ searched }} </h1>
+<div class='container'>
+    <ul>
+        {% for title in result.keys() %}
+
+        <a href="{{ url_for('search_handler',titlename=title) }}" method='get'>
+            <li>Title: {{ title }}</li>
+        </a>
+        {% endfor %}
+    </ul>
+=======
+{% extends 'layout.html' %} {% block content %}
+<h1>{{ searched }} </h1>
+<div class='container'>
+    <ul>
+        {% for title in result.keys() %}
+
+        <a href="{{ url_for('search_handler',titlename=title) }}" method='get'>
+            <li>Title: {{ title }}</li>
+        </a>
+        {% endfor %}
+    </ul>
+>>>>>>> e91c249518180045abfd580520895a5a4e9f2171
+</div> {% endblock %}

@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+{% extends "base.html" %} {% block title %}{{ title }} {% endblock %} {% block main %}
+<p>Login</p>
+
+<form type='text' action="{{ url_for('login_handler') }}" method='post'>
+    <div class='container-fluid'>
+        <div class='row'>
+            <form>
+
+                <div class='form-group'>
+                    <label for='uname'>User name:</label>
+                    <input class='form-control' name='uname' placeholder='Username' id='uname'>
+
+
+                    <label for='pwd'>Password:</label>
+                    <input name='pwd' class='form-control' type='password' value='' placeholder='Password' id='pwd'>
+
+                    <button type="submit" class="btn btn-primary btn-md">Login</button>
+                </div>
+=======
+{% extends "base.html" %} {% block title %}{{ title }} {% endblock %} {% block main %}
+<p>Login</p>
+
+<form type='text' action="{{ url_for('login_handler') }}" method='post'>
+    <div class='container-fluid'>
+        <div class='row'>
+            <form>
+
+                <div class='form-group'>
+                    <label for='uname'>User name:</label>
+                    <input class='form-control' name='uname' placeholder='Username' id='uname'>
+
+
+                    <label for='pwd'>Password:</label>
+                    <input name='pwd' class='form-control' type='password' value='' placeholder='Password' id='pwd'>
+
+                    <button type="submit" class="btn btn-primary btn-md">Login</button>
+                </div>
+>>>>>>> e91c249518180045abfd580520895a5a4e9f2171
+            </form> {% endblock %}

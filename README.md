@@ -1,2 +1,3 @@
-# BookWorm
- An intro to flask with Hardvard's C50W 
+# Project 1
+
+Web Programming with Python and JavaScript
