@@ -11,10 +11,10 @@ from xml.dom import minidom
 
 #configure Flask app
 app= Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://jscgdcozzllrcb:f9d3040fa55f18c09257c63af9f0568887f5b4ee9c12adde26fe189743412f26@ec2-46-137-177-160.eu-west-1.compute.amazonaws.com:5432/d72lps0f3so6mt'
+app.config['SQLALCHEMY_DATABASE_URI'] = ''
 app.config['FLASK_ENV'] = 'development'
 app.config['SQLALCHEMY_TRACE_MODIFICATIONS'] = True  #to set debug mode ---> $env:FLASK_ENV='development' in powershell 
-app.config["DATABASE_URL"] = 'postgres://jscgdcozzllrcb:f9d3040fa55f18c09257c63af9f0568887f5b4ee9c12adde26fe189743412f26@ec2-46-137-177-160.eu-west-1.compute.amazonaws.com:5432/d72lps0f3so6mt'
+app.config["DATABASE_URL"] = ''
 
 # Configure session to use filesystem
 app.config["SESSION_PERMANENT"] = False
@@ -28,7 +28,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 db = SQLAlchemy(app)
 
 #set up secret key & user session data 
-app.secret_key = 'B2opYVcP_L-u2B-VY0ubWA'
+app.secret_key = ''
 
 @app.route("/",methods=['GET','POST'])
 def index():
